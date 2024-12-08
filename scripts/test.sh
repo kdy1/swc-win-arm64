@@ -9,6 +9,7 @@ git clone https://github.com/swc-project/swc.git -b swc-win-arm64
 cd swc
 
 # Install dependencies
+corepack enable
 yarn
 
 # Test wasm

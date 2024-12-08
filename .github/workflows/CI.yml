@@ -3,6 +3,8 @@ env:
   DEBUG: napi:*
   APP_NAME: swc-win-arm64
   MACOSX_DEPLOYMENT_TARGET: '10.13'
+  # https://github.com/actions/setup-node/issues/899#issuecomment-1819151595
+  SKIP_YARN_COREPACK_CHECK: 1
 permissions:
   contents: write
   id-token: write
