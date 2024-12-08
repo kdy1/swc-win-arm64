@@ -1,0 +1,18 @@
+{
+  "name": "swc-win-arm64-linux-arm-musleabihf",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "swc-win-arm64.linux-arm-musleabihf.node",
+  "files": [
+    "swc-win-arm64.linux-arm-musleabihf.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
